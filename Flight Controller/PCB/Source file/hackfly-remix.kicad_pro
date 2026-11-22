@@ -51,10 +51,16 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         [
-          "starved_thermal|31650000|36000000|8caf47ea-c90b-493e-a4fb-2583b13cd88a|e9e5a108-2791-4181-93ec-4f6a9cba50f4|F.Cu",
+          "starved_thermal|32500000|27500000|8caf47ea-c90b-493e-a4fb-2583b13cd88a|10ae27af-7331-4fe3-8f95-6f5e60aaa9f9|B.Cu",
           ""
         ],
         [
@@ -153,7 +159,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -201,7 +207,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -228,7 +236,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -580,14 +593,38 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digikey #",
+          "name": "Digikey #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "name": "",
+      "sort_asc": false,
+      "sort_field": "Datasheet"
     },
     "connection_grid_size": 50.0,
     "drawing": {
