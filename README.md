@@ -29,37 +29,37 @@ USE AT YOUR OWN RISK.
 
 Frame Size: 3-inch.
 
-Motors: 1104 – 4300KV.
+Motors: 1104 – 4300KV- (remix uses IFlight XING2 1404 4600KV!)
 
-Propeller: Gemfan 3018 bi-blade.
+Propeller: Gemfan 3018 bi-blade(possible tri blade!).
 
-Battery Support: 2S – 3S LiPo.
+Battery Support: 3S ONLY if running XING2 at 4600KV!! LiPo.
 
-suggested battery: (900-1500)mah 3s lipo.
+Suggested Batt: (900-1500)mah 3s lipo.
 
-Flight Controller: Custom-designed FC.
+Flight Controller: Custom-designed FC. (Read more below!)
 
-Firmware: Betaflight.
+Firmware: Betaflight(not native running via ESP-FC)!
 
 RC Protocol: ExpressLRS (ELRS)
 
 Navigation: GPS supported.
 
-gps compatibility: any 15*15mm gps (Hglrs m100 mini suggested)
+GPS compatibility: Any 15*15mm gps (HGLRS M100 Mini suggested)
 
-Use Case: Long-range FPV, exploration, and experimental flight testing.
-
-
+Use Case: Long-range FPV, but mostly FPV 4k cinematic action and camera.
 
 
-# Why HACK FLY?
 
-A custom hardware and PCB that gives you your own way to add spice to it.
+
+# Why Hack Fly????
+
+A custom hardware build including a PCB that gives you your own way to add spice to it!
 Also compatible with BetaFlight (you can achieve very agile and stable flight characteristics). Supports all types of Radio RX protocols: PPM, SBUS, IBUS, and CRSF Receivers.
-If you combine it with a high-performance 18650 Li-ion battery (like Molicel PB28A,Eve 30pl,Ampace jp30 or Sony vt6), you can get over 10 minutes of flight time.
+If you combine it with a high-performance 18650 Li-ion battery (like Molicel PB28A,Eve 30pl,Ampace jp30 or Sony vt6), you can get over 10 minutes of flight time!
 
-Who didn't want his drone to be repairable? The 3D-printed frame gives you that flexibility.
-Break the frame in a crash? Just print another. Cost? less than 1$ even if you use PETG-CF.
+Who doesn't want their drone to be repairable? The 3D-printed frame gives you that flexibility.
+Break the frame in a crash? Just print another. Cost? Less than $1 even if you use PETG-CF.
 
 
 
@@ -69,9 +69,6 @@ files to build your own flight controller and Drone frame.
 For flashing the latest Betaflight to the Flight controller visit rtlopez/esp-fc repo- 
 **https://github.com/rtlopez/esp-fc**.
 
-Join our **[Discord Channel](https://discord.gg/Ff5Q2nz4)** to get any kind of help.
-
-
 
 # Quick Start
 
@@ -80,8 +77,8 @@ Join our **[Discord Channel](https://discord.gg/Ff5Q2nz4)** to get any kind of h
 ## Hardware:
 
 * Seeed Studio Xiao ESP32 S3(https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html)
-* 1104 4300kv mottor x4 (https://s.click.aliexpress.com/e/_c4sG0n0N)
-* 2-3S micro 8A ESC x4 (https://s.click.aliexpress.com/e/_c4ShBcjr)
+* 1104 4300kv motor (or XIN 1404 4600KV, I used those!) x4 (https://shop.iflight.com/index.php?route=product/product&product_id=3382)
+* 2-3S micro 8A ESC (or my custom PCB!) x4 (https://s.click.aliexpress.com/e/_c4ShBcjr)
 > [!IMPORTANT]
 > **If you also want build your own 4in1 esc**, Visit this repo- **https://github.com/minhazislamnafi/Nano-2-3s-AM32-ESC**.
 * Gemfan 3018 bi-blade × 2 pair (https://s.click.aliexpress.com/e/_c34qvZlJ)
